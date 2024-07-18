@@ -1,0 +1,121 @@
+@media (max-width: 480px) {
+  #hero {
+    padding: 1rem 0rem;
+    height: 20vh;
+    border-bottom: solid 2px #ff9974; }
+    #hero #navbar {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #hero #navbar img {
+        margin-left: 0px;
+        margin-bottom: 1rem; }
+      #hero #navbar ul {
+        margin-left: 20px; }
+      #hero #navbar ul li {
+        margin-right: 20px; }
+    #hero div {
+      display: none; }
+  #specialization .part-1 {
+    text-align: center;
+    padding: 0rem 1rem; }
+  #specialization .part-2 {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column; }
+    #specialization .part-2 .features {
+      text-align: center;
+      padding: 0rem 1rem; }
+  #specialization .part-3 {
+    display: flex;
+    flex-direction: column; }
+    #specialization .part-3 .achievements {
+      padding: 2rem; }
+  #creativity .part-1 {
+    text-align: center;
+    padding: 0rem 1rem; }
+  #creativity .part-2 {
+    flex-direction: column;
+    gap: 1rem; }
+    #creativity .part-2 .features {
+      padding: 0rem 1rem; }
+  #footer div {
+    flex-direction: column;
+    gap: 1rem; } }
+
+@media (max-width: 480px) {
+  #navbar-2 {
+    background: url("../img/showcase.jpg") center center/cover;
+    padding: 1rem 0rem;
+    height: 20vh;
+    border-bottom: solid 2px #ff9974; }
+    #navbar-2 #navbar {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #navbar-2 #navbar img {
+        margin-left: 0px;
+        margin-bottom: 1rem; }
+      #navbar-2 #navbar ul {
+        margin-left: 20px; }
+      #navbar-2 #navbar ul li {
+        margin-right: 20px; }
+  #about-me .part-1 {
+    text-align: center;
+    padding: 0rem 1rem; }
+  #about-me .part-2 {
+    flex-direction: column; }
+    #about-me .part-2 img {
+      height: 200px;
+      width: 343px; }
+    #about-me .part-2 div {
+      text-align: center; }
+  #about-me .part-3 {
+    flex-direction: column; }
+    #about-me .part-3 .features {
+      text-align: center;
+      padding: 0rem 1rem; }
+  #skills .part-2 {
+    display: none; }
+  #testimonials .part-2 {
+    flex-direction: column; }
+    #testimonials .part-2 .client {
+      margin-bottom: 0.5rem; } }
+
+@media (max-width: 480px) {
+  #my-work .part-2 {
+    grid-template-columns: 1fr;
+    margin: 0rem 0.3rem;
+    margin-bottom: 2rem; }
+    #my-work .part-2 img {
+      height: 270px;
+      width: 350px; } }
+
+@media (max-width: 480px) {
+  #contact-me .part-2 form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column; }
+    #contact-me .part-2 form input, #contact-me .part-2 form textarea {
+      width: 80%; }
+    #contact-me .part-2 form button {
+      margin-top: 70px;
+      width: 50%;
+      padding: 1rem 0rem; }
+  #contact-details .part-1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0rem; }
+    #contact-details .part-1 .features {
+      padding: 1rem;
+      width: 80%;
+      border-bottom: groove 0.5px rgba(211, 211, 211, 0.841); }
+    #contact-details .part-1 .features:last-child {
+      border: none; }
+  #contact-details .part-2 {
+    padding: 4rem 1rem;
+    text-align: center; }
+    #contact-details .part-2 h1 {
+      font-size: 1.8rem; } }
