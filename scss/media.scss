@@ -166,6 +166,8 @@
 
     #my-work{
         .part-2{
+            justify-content: center;
+            align-items: center;
             grid-template-columns: 1fr;
             margin: 0rem 0.3rem;
             margin-bottom: 2rem;
