@@ -296,11 +296,11 @@ body {
 #my-work .part-2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 10px;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  padding: 0rem 1rem; }
   #my-work .part-2 img {
-    height: 300px;
-    width: 400px; }
+    max-width: 100%;
+    height: auto; }
 
 #contact-me {
   margin-bottom: 50px; }
