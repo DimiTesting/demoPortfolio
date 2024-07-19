@@ -105,6 +105,7 @@ body {
     flex-grow: 1;
     text-align: center; }
     #creativity .part-2 .features i {
+      position: relative;
       color: #f4f4f4;
       background: #333;
       border-radius: 50%;
@@ -113,8 +114,29 @@ body {
       transition: all;
       transition-duration: 0.5s;
       transition-timing-function: ease-in-out; }
+    #creativity .part-2 .features .progress {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #ff9974;
+      color: #f4f4f4;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+      padding: 5px;
+      transition: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in-out; }
     #creativity .part-2 .features i:hover {
-      background: #ff9974; }
+      background: #ff9974;
+      padding: 2.5rem; }
+      #creativity .part-2 .features i:hover .progress {
+        background: #333;
+        padding: 7px; }
 
 #navbar-2 {
   background: url("../img/showcase.jpg") center no-repeat;

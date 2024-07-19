@@ -161,6 +161,7 @@ body{
             text-align: center;
 
             i{
+                position: relative;
                 color: $light-color;
                 background: $dark-color;
                 border-radius: 50%;
@@ -169,10 +170,37 @@ body{
                 transition:all;
                 transition-duration: 0.5s;
                 transition-timing-function: ease-in-out;
+                
+            }
+
+            
+            .progress{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: $main-color;
+                color: $light-color;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                font-size: 20px;
+                padding: 5px;
+                transition:all;
+                transition-duration: 0.5s;
+                transition-timing-function: ease-in-out;
             }
 
             i:hover{
                 background: $main-color;
+                padding: 2.5rem;
+
+                .progress{
+                    background: $dark-color;
+                    padding: 7px;
+                }
             }
         }
     }
